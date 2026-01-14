@@ -1,4 +1,4 @@
-// swift-tools-version: 5.5
+// swift-tools-version: 5.9
 import PackageDescription
 
 let package = Package(
@@ -7,8 +7,7 @@ let package = Package(
     products: [
         .library(
             name: "ScanditCapacitorDatacaptureIdVoidedDetection",
-            targets: ["ScanditIdVoidedDetectionNativePlugin"]
-        )
+            targets: ["ScanditIdVoidedDetectionNativePlugin"])
     ],
     dependencies: [
         .package(url: "https://github.com/ionic-team/capacitor-swift-pm.git", from: "7.0.0")
@@ -18,14 +17,12 @@ let package = Package(
             name: "ScanditIdVoidedDetectionNativePlugin",
             dependencies: [
                 .product(name: "Capacitor", package: "capacitor-swift-pm"),
-                .product(name: "Cordova", package: "capacitor-swift-pm"),
+                .product(name: "Cordova", package: "capacitor-swift-pm")
             ],
-            path: "ios/Sources/ScanditIdVoidedDetectionNativePlugin"
-        ),
+            path: "ios/Sources/ScanditIdVoidedDetectionNativePlugin"),
         .testTarget(
             name: "ScanditIdVoidedDetectionNativePluginTests",
             dependencies: ["ScanditIdVoidedDetectionNativePlugin"],
-            path: "ios/Tests/ScanditIdVoidedDetectionNativePluginTests"
-        ),
+            path: "ios/Tests/ScanditIdVoidedDetectionNativePluginTests")
     ]
 )
