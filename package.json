@@ -1,6 +1,6 @@
 {
   "name": "scandit-capacitor-datacapture-id-voided-detection",
-  "version": "7.6.10",
+  "version": "6.28.9",
   "description": "Scandit Data Capture SDK for Capacitor",
   "files": [
     "android/",
