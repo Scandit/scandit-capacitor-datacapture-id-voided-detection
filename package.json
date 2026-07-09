@@ -1,12 +1,13 @@
 {
   "name": "scandit-capacitor-datacapture-id-voided-detection",
-  "version": "8.4.1",
+  "version": "8.5.0",
   "description": "Scandit Data Capture SDK for Capacitor",
   "files": [
     "android/",
     "ios",
     "ScanditCapacitorDatacaptureIdVoidedDetection.podspec",
-    "Package.swift"
+    "Package.swift",
+    "THIRD_PARTY.txt"
   ],
   "author": "",
   "license": "Apache-2.0",
